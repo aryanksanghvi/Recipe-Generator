@@ -1,0 +1,113 @@
+body{
+  background-image: url(back3.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#container4{
+  margin-top: 100px;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  color:white;
+}
+.box{
+  text-align:center;
+  margin:2vh;
+  padding:2vh;
+  border:0.1vh white;
+  border-radius: 8px;
+  width:200vh;
+  height:40vh;
+  /* -webkit-box-: 0px 0px 13px 2px black; */
+  /* box-shadow: 0px 0px 13px 2px rgb(238, 248, 248); */
+  -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-direction:column;
+  transition:all 0.3s ease-in-out;
+  
+  
+
+}
+.box:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 3px 12px 0px #ccc;
+	border: 1px solid transparent;
+  background-color: black;
+}
+/* #container :hover{
+  transform: scale(1.1);
+} */
+
+#secondbox{
+  background-image: url(onepot2.png);
+  /* background-size:cover; */
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center ;
+  color:white;
+
+
+}
+/* #secondbox :hover{
+  background-color: black;
+} */
+#firstbox{
+  background-image: url(ingrediantsbg.png);
+  /* background-size:cover; */
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position: center ;
+  color:white;
+
+
+}
+#mainNavigation a {
+    font-family: 'Cabin', sans-serif;
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    text-shadow:1px 1px 2px rgba(0,0,0,0.4)
+  }
+  
+  .dropdown-menu {
+    background:#03727d
+  }
+  a.dropdown-toggle {
+    color:#dfdfdf !important
+  }
+  a.dropdown-item:hover {
+    color:#03727d !important
+  }
+  .nav-item a{
+    color:#dfdfdf;
+  }
+  .nav-item a:hover {
+    color:#fff
+  }
+  .nav-item{
+    min-width:12vw;
+  }
+  #mainNavigation {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:123;
+    padding-bottom:120px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  }
+  #navbarNavDropdown.collapsing .navbar-nav,
+  #navbarNavDropdown.show .navbar-nav{
+    background:#037582;
+    padding:12px;
+  }
