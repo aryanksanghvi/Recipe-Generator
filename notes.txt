@@ -1,0 +1,21 @@
+This JavaScript code appears to be a part of a user interface for a website or web application. Let's break down the code section by section:
+
+1. **Query Selectors:**
+   - `const formOpenBtn = document.querySelector("#form-open")`: Selects an element with the ID "form-open" and assigns it to the `formOpenBtn` variable.
+   - `const home = document.querySelector(".home")`: Selects an element with the class "home" and assigns it to the `home` variable.
+   - `const formContainer = document.querySelector(".form_container")`: Selects an element with the class "form_container" and assigns it to the `formContainer` variable.
+   - `const formCloseBtn = document.querySelector(".form_close")`: Selects an element with the class "form_close" and assigns it to the `formCloseBtn` variable.
+   - `const signupBtn = document.querySelector("#signup")`: Selects an element with the ID "signup" and assigns it to the `signupBtn` variable.
+   - `const loginBtn = document.querySelector("#login")`: Selects an element with the ID "login" and assigns it to the `loginBtn` variable.
+   - `const pwShowHide = document.querySelectorAll(".pw_hide")`: Selects all elements with the class "pw_hide" and assigns them to the `pwShowHide` NodeList.
+
+2. **Event Listeners:**
+   - `formOpenBtn.addEventListener("click", () => home.classList.add("show"))`: Listens for a click event on the element with the ID "form-open" and adds the "show" class to the element with the class "home."
+   - `formCloseBtn.addEventListener("click", () => home.classList.remove("show"))`: Listens for a click event on the element with the class "form_close" and removes the "show" class from the element with the class "home."
+   - `pwShowHide.forEach((icon) => { /* ... */ })`: Iterates over each element with the class "pw_hide" and adds a click event listener. This listener toggles the visibility of the password by changing the input type between "password" and "text" and updates the icon class accordingly.
+
+3. **Form Switching:**
+   - `signupBtn.addEventListener("click", (e) => { /* ... */ })`: Listens for a click event on the element with the ID "signup" (presumably a signup button) and prevents the default form submission behavior. It adds the "active" class to the element with the class "form_container," indicating a switch to the signup form.
+   - `loginBtn.addEventListener("click", (e) => { /* ... */ })`: Listens for a click event on the element with the ID "login" (presumably a login button) and prevents the default form submission behavior. It removes the "active" class from the element with the class "form_container," indicating a switch to the login form.
+
+In summary, the code manages the visibility of UI elements, handles password visibility toggling, and switches between login and signup forms based on user interactions.
