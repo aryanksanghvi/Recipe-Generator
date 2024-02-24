@@ -18,6 +18,8 @@ html, body {
 body{
     background-color: #1F2833;
     color: whitesmoke;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 a {
   text-decoration: none;
@@ -36,6 +38,7 @@ a {
 }
 .nav,
 .nav_item {
+  font-family: 'Outfit', sans-serif;
   display: flex;
   height: 100%;
   align-items: center;
@@ -72,16 +75,12 @@ a {
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: url("bg.jpg");
-  background-size: cover;
-  background-position: center;
 }
 .home::before {
   content: "";
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
   z-index: 100;
   opacity: 0;
   pointer-events: none;
@@ -213,4 +212,44 @@ a {
   font-size: 12px;
   text-align: center;
   margin-top: 15px;
+}
+.intro{
+  padding-top: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.intro h1{
+    font-size: 2em;
+    font-weight: 1000;
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+#form-open{
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+  padding: 1vh;
+  display: inline-block;
+  border-radius:1.5vh;
+  transition: all 0.3s; 
+  -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  cursor: pointer;
+}
+#form-open:hover{
+  background-color: #f3a654;
+  color: black;
+  transform: scale(1.1);
+}
+#logo{
+  cursor: pointer;
+  transition: all 0.3s; 
+}
+#logo:hover{
+  transform: scale(1.1);
 }
