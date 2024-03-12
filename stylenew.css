@@ -60,8 +60,15 @@ body {
   filter: blur(500px); /* Adjust the blur amount as needed */
   transition: filter 0.3s;
 }
+#firstbox:hover{
+  transition: ease-in-out;
+  transition-duration: 0.7s;
+}
 #firstbox:hover .focus-content {
   filter: blur(0);
+}
+#firstbox:hover {
+  background-color: rgba(121, 121, 121, 0.504); /* Adjust the alpha value (last parameter) to control transparency */
 }
 #secondbox{
   background-image: url(/assets/onepot2.png);
@@ -80,6 +87,13 @@ body {
 }
 #secondbox:hover .focus-content {
   filter: blur(0);
+}
+#secondbox:hover{
+  transition: ease-in-out;
+  transition-duration: 0.7s;
+}
+#secondbox:hover {
+  background-color: rgba(121, 121, 121, 0.504); /* Adjust the alpha value (last parameter) to control transparency */
 }
 #thirdbox{
   background-image: url(/assets/gymfood2.png);
@@ -100,6 +114,13 @@ body {
 #thirdbox:hover .focus-content {
   filter: blur(0);
 }
+#thirdbox:hover{
+  transition: ease-in-out;
+  transition-duration: 0.7s;
+}
+#thirdbox:hover {
+  background-color: rgba(121, 121, 121, 0.504); /* Adjust the alpha value (last parameter) to control transparency */
+}
 #fourthbox{
   background-image: url(/assets/gobymood2.png);
   background-size: 300px;
@@ -119,10 +140,20 @@ body {
 #fourthbox:hover .focus-content {
   filter: blur(0);
 }
+#fourthbox:hover{
+  transition: ease-in-out;
+  transition-duration: 0.7s;
+}
+#fourthbox:hover {
+  background-color: rgba(121, 121, 121, 0.504); /* Adjust the alpha value (last parameter) to control transparency */
+}
 .hovertext{
   color: black;
   font-size: 2em;
   font-weight: 600;
+  text-decoration: none;
+}
+.focus-content a{
   text-decoration: none;
 }
 .header{
