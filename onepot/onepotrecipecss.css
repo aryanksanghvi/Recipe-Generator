@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+body {
+    background-color: rgb(157, 229, 245);
+    /* background-image: url(/background.jpg); */
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* Center text content */
+  }
+  
+  .recipe-image {
+    display: block; /* Ensure image takes up full width */
+    margin: 0 auto; /* Center image horizontally */
+    height:300px;
+    width: 300px; /* Adjust image width as needed */
+  }
+  
+  h2 {
+    margin-top: 10px; /* Adjust spacing as needed */
+    margin-bottom: 5px;
+  }
+  p {
+    line-height: 1.5; /* Adjust line spacing as needed */
+  }
+  
