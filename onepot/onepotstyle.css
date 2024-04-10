@@ -7,7 +7,8 @@
 
 body {
   /* background-image: url(/assets/back5.jpg); */
-  background-color:#3bccff;
+  /* background-color:#3bccff; */
+  background-image: url("/Images/bg.avif");
   background-repeat: no-repeat;
   background-size: cover; /* Contain the image within the viewport */
   background-attachment: fixed;
@@ -179,11 +180,11 @@ body {
   background-color: rgba(121, 121, 121, 0.504); /* Adjust the alpha value (last parameter) to control transparency */
 }
 #sixthbox{
-  background-image: url(/onepot/assets/gobymood2.png);
+  background-image: url(/onepot/assets/Lasagna.jpeg);
   background-size: 300px;
   background-repeat: no-repeat;
   background-position: center ;
-  background-size: contain;
+  background-size: cover;
   color:white;
 }
 #sixthbox .focus-content {
