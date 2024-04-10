@@ -44,6 +44,9 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+#typing-text{
+  color:black;
+}
 .nav_logo,
 .nav_link,
 .button {
