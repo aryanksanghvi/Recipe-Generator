@@ -5,7 +5,13 @@
   font-family: 'Outfit', sans-serif;
 }
 body {
-    background-color: rgb(157, 229, 245);
+ 
+    background-image: url("/onepot/assets/Blue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    justify-content: center;
+    
     /* background-image: url(/background.jpg); */
     margin: 0;
     padding: 20px;
@@ -13,17 +19,62 @@ body {
   }
   
   .recipe-image {
-    display: block; /* Ensure image takes up full width */
-    margin: 0 auto; /* Center image horizontally */
     height:300px;
     width: 300px; /* Adjust image width as needed */
+    position: relative;
+    top: 300px;
+    left: 100px;
+    border-radius: 40px;
+    display: block; /* Ensure image takes up full width */
+    margin: 0 auto; /* Center image horizontally */
+
   }
   
   h2 {
-    margin-top: 10px; /* Adjust spacing as needed */
+    margin-top: 300px; /* Adjust spacing as needed */
     margin-bottom: 5px;
   }
   p {
     line-height: 1.5; /* Adjust line spacing as needed */
   }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    margin: 50px auto;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  thead th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  ul, ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
   
