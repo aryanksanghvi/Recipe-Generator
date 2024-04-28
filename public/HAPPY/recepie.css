@@ -1,0 +1,42 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+ 
+  /* background-color: rgb(157, 229, 245); */
+  background-image: url(../Images/pexels-lukas-349610.jpg);
+  /* background-image: url(/background.jpg); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+   /* Contain the image within the viewport */
+  /* background-attachment: fixed; */
+  /* background-position: 100% 100%; */
+  /* overflow-x: hidden; */
+ 
+  margin: 0;
+  padding: 20px;
+  text-align: center; /* Center text content */
+  
+}
+
+.recipe-image {
+  display: block; /* Ensure image takes up full width */
+  margin: 0 auto; /* Center image horizontally */
+  height:300px;
+  width: 300px; /* Adjust image width as needed */
+}
+
+h2 {
+  margin-top: 10px; /* Adjust spacing as needed */
+  margin-bottom: 5px;
+}
+
+p {
+  line-height: 1.5; /* Adjust line spacing as needed */
+}
+
+pre{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  
+  text-decoration-thickness: 2px;
+}

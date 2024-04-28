@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../Contact/contact.css">
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar">
+          <a href="../home/home.html"><img src="../Images/Logo.png" width="200vh" class="logo"></a>
+          <ul>
+            <li><a class="navlink active" href="../home/home.html">Home</a></li>
+            <!-- <li><a class="navlink" href="../Browse/browse.html">Browse all Recipes</a></li> -->
+            <li><a class="navlink" href="../Contact/contact.html">Contact Us</a></li>
+            <li><a class="navlink" href="../policy/policy.html">Policy</a></li>
+          </ul>
+          <a href="../login/login.html"><button class="log">Logout</button></a>
+        </nav>
+      </div>
+  <main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Contact Us!</h1>
+    <form id="contactForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit" id = "send">Send Message</button>
+    </form>
+    <div id="response"></div>
+  </main>
+  <script src="../Contact/contact.js"></script>
+</body>
+</html>
